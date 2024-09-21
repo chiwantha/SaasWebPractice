@@ -11,7 +11,7 @@ const HowItWorks = () => {
   //       delay: i * 0.2,
   //       duration: 0.6,
   //       ease: "easeOut",
-  //     },
+  //     }
   //   }),
   // };
 
