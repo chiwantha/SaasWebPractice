@@ -2,6 +2,7 @@ import { HOW_IT_WORKS_CONTENT } from "../constants";
 // import { motion } from "framer-motion";
 
 const HowItWorks = () => {
+  // mn meka add kale pc eken
   //wenas kala hode
   // const setpVariants = {
   //   hidden: { opacity: 0, y: 50 },
