@@ -7,6 +7,8 @@ import {
 } from "react-icons/fa";
 import { SiNextdotjs, SiCsharp, SiCplusplus, SiMysql } from "react-icons/si";
 
+import { FaFacebookF, FaGithub, FaLinkedinIn } from "react-icons/fa";
+
 import planeImage from "../assets/planingImage-min.jpg";
 import designImage from "../assets/designImage-min.jpg";
 import optimizeImage from "../assets/optimizeImage-min.jpg";
@@ -102,6 +104,34 @@ export const HOW_IT_WORKS_CONTENT = {
       imageSrc: supportImage, // Same image as before
       imageAlt: "Maintenance and Scaling",
     },
+  ],
+};
+
+export const SOCIAL_MEDIA = {
+  icons: [
+    {
+      id: 1,
+      icon: <FaFacebookF className="w-6 h-6" />,
+      url: "https://github.com/chiwantha",
+      color: "text-blue-500",
+    },
+    {
+      id: 2,
+      icon: <FaGithub className="w-6 h-6" />,
+      url: "https://github.com/chiwantha",
+      color: "text-white",
+    },
+    {
+      id: 3,
+      icon: <FaLinkedinIn className="w-6 h-6" />,
+      url: "www.linkedin.com/in/kasun-chiwantha-5168b4323",
+      color: "text-cyan-500",
+    },
+    // },
+    // {
+    //   id: 4,
+    //   icon: <FaXTwitter className="w-6 h-6" />, // Twitter rebranded as X
+    // },
   ],
 };
 
@@ -257,57 +287,45 @@ export const TESTIMONIALS_CONTENT = {
 export const FOOTER_CONTENT = {
   sections: [
     {
-      title: "TOOLS & SERVICES",
+      title: "RESOURCES",
       links: [
-        { text: "Real-time Analytics", url: "#" },
-        { text: "Customizable Alerts", url: "#" },
-        { text: "Integrated Chat Systems", url: "#" },
-        { text: "Instant Notifications", url: "#" },
-        { text: "Overlays & Visuals", url: "#" },
-        { text: "Mobile Streaming Support", url: "#" },
-        { text: "4K Stream Capabilities", url: "#" },
-        { text: "Stream Scheduling Tool", url: "#" },
-      ],
-    },
-    {
-      title: "SUPPORT & RESOURCES",
-      links: [
-        { text: "Subscription Plans", url: "#" },
-        { text: "Affiliate Program", url: "#" },
+        { text: "Case Studies", url: "#" },
         { text: "Frequently Asked Questions", url: "#" },
-        { text: "Company Blog", url: "#" },
-        { text: "Subscribe to Newsletter", url: "#" },
-        { text: "Latest Features", url: "#" },
-        { text: "Merchandise Store", url: "#" },
-        { text: "Workshops & Events", url: "#" },
+        { text: "Blog & Insights", url: "#" },
+        { text: "Client Testimonials", url: "#" },
+        { text: "Download Brochure", url: "#" },
+        { text: "Partnership Opportunities", url: "#" },
+        { text: "Career Opportunities", url: "#" },
+        { text: "Events & Webinars", url: "#" },
       ],
     },
     {
-      title: "CONNECT WITH US",
+      title: "SERVICES",
       links: [
-        { text: "Twitter", url: "#" },
-        { text: "Facebook", url: "#" },
-        { text: "TikTok", url: "#" },
-        { text: "LinkedIn", url: "#" },
-        { text: "YouTube", url: "#" },
-        { text: "Twitch", url: "#" },
-        { text: "Discord", url: "#" },
+        { text: "Web & Software Solutions", url: "#" },
+        { text: "Graphic Design", url: "#" },
+        { text: "Music Production", url: "#" },
+        { text: "Marketing Solutions", url: "#" },
+        { text: "E-commerce Development", url: "#" },
+        { text: "Mobile App Development", url: "#" },
+        { text: "Custom Software", url: "#" },
+        { text: "IT Consultancy", url: "#" },
       ],
     },
     {
-      title: "LEARN & EXPLORE",
+      title: "ABOUT US",
       links: [
-        { text: "Engage Viewers with Custom Alerts", url: "#" },
-        { text: "Top Streaming Strategies for New Streamers", url: "#" },
-        { text: "How to Stream in 4K for Maximum Quality", url: "#" },
-        { text: "Efficient Stream Scheduling Techniques", url: "#" },
-        { text: "Using Analytics to Boost Engagement", url: "#" },
-        { text: "Create Stunning Overlays for Streams", url: "#" },
-        { text: "Advanced Analytics for Streamers: A Guide", url: "#" },
+        { text: "Our Story", url: "#" },
+        { text: "Leadership Team", url: "#" },
+        { text: "Mission & Vision", url: "#" },
+        { text: "Sustainability", url: "#" },
+        { text: "Press & Media", url: "#" },
+        { text: "Careers", url: "#" },
+        { text: "Contact Us", url: "#" },
       ],
     },
   ],
   platformsText:
-    "Streaming Platforms | Twitch | YouTube | Discord | Facebook Gaming",
-  copyrightText: "© 2024 Streamerzz, Inc. All rights reserved.",
+    "Our Brands | ThivMusic Studio | K-Chord Graphics | K-Chord Web Solutions",
+  copyrightText: "© 2024 K-Chord Group. All rights reserved.",
 };

@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Nav from "./components/Nav";
 import Hero from "./sections/Hero";
 import HowItWorks from "./sections/HowItWorks";
@@ -21,6 +22,7 @@ function App() {
       <KeyFeatures />
       <Pricing />
       <Testimonials />
+      <Footer />
     </section>
   );
 }
