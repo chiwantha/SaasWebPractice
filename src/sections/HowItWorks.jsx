@@ -37,9 +37,9 @@ const HowItWorks = () => {
         >
           {HOW_IT_WORKS_CONTENT.steps.map((step, index) => (
             <motion.div
-              initial={{ opacity: 0, y: -20 }}
+              initial={{ opacity: 0, y: +100 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.2 }}
+              transition={{ duration: 1, delay: 0.1 * index }}
               key={index}
               className="bg-neutral-900 p-6 rounded-xl shadow-xl flex flex-col justify-between"
             >

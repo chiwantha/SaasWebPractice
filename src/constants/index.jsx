@@ -7,12 +7,12 @@ import {
 } from "react-icons/fa";
 import { SiNextdotjs, SiCsharp, SiCplusplus, SiMysql } from "react-icons/si";
 
-import planeImage from "../assets/planingImage.jpg";
-import designImage from "../assets/designImage.jpg";
-import optimizeImage from "../assets/optimizeImage.jpg";
-import developImage from "../assets/developImage.jpg";
-import launchImage from "../assets/launchImage.jpg";
-import supportImage from "../assets/serviceImage.jpg";
+import planeImage from "../assets/planingImage-min.jpg";
+import designImage from "../assets/designImage-min.jpg";
+import optimizeImage from "../assets/optimizeImage-min.jpg";
+import developImage from "../assets/developImage-min.jpg";
+import launchImage from "../assets/launchImage-min.jpg";
+import supportImage from "../assets/serviceImage-min.jpg";
 
 import user1 from "../assets/user1.jpeg";
 import user2 from "../assets/user2.jpeg";
