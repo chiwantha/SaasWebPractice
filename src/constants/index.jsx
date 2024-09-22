@@ -205,50 +205,50 @@ export const PLANS_CONTENT = {
 };
 
 export const TESTIMONIALS_CONTENT = {
-  sectionTitle: "What Our Streamers Say",
+  sectionTitle: "What Our Clients Say",
   sectionDescription:
-    "Hear from some of the top streamers who use Streamerzz to engage with their audience and grow their channels.",
+    "Hear from our satisfied clients who trust K-Chord Group for their software, music, and graphic design solutions.",
   reviews: [
     {
       name: "Alice Johnson",
-      title: "Content Creator",
+      title: "CEO, Creative Ventures",
       review:
-        "Streamerzz has revolutionized the way we manage our content subscriptions. The intuitive dashboard and real-time analytics have made it easier to track our progress and optimize our offerings. Highly recommended!",
+        "K-Chord Group has transformed the way we manage our projects. Their innovative tools and personalized support have made a huge impact on our efficiency. Highly recommended for businesses seeking top-notch solutions!",
       image: user1,
     },
     {
       name: "Bob Smith",
-      title: "Marketing Specialist",
+      title: "Marketing Director, Tech Solutions",
       review:
-        "The team at Streamerzz has been fantastic! Their support is responsive and knowledgeable. The platform itself is versatile and has helped us streamline our subscription management, saving us time and increasing efficiency.",
+        "The team at K-Chord Group is exceptional! Their quick response time and tailored solutions have helped us streamline our workflow. We’ve seen significant improvements in our marketing efforts and overall productivity.",
       image: user2,
     },
     {
       name: "Carla Mendes",
-      title: "Product Manager",
+      title: "Product Manager, InnovateHub",
       review:
-        "Streamerzz's automated billing and comprehensive analytics have been game-changers for our product team. We can now easily track user engagement and make data-driven decisions to enhance our service offerings.",
+        "K-Chord Group's project management and analytics tools have been game-changers for our product development. We now have real-time insights that allow us to make better decisions and enhance our offerings.",
       image: user3,
     },
     {
       name: "David Lee",
-      title: "Customer Success Manager",
+      title: "Customer Success Lead, Bright Media",
       review:
-        "Using Streamerzz, we’ve been able to increase our customer retention rates. The platform's user-friendly interface and powerful features have provided our customers with a seamless experience, leading to higher satisfaction.",
+        "With K-Chord Group's powerful tools, we've been able to increase our client satisfaction and streamline our processes. Their platform is easy to use, and their support team is always there when we need them.",
       image: user4,
     },
     {
       name: "Ella Fernandez",
-      title: "UX Designer",
+      title: "Lead UX Designer, Visionary Designs",
       review:
-        "Streamerzz's flexibility and ease of use have made it a key tool in our design process. We can quickly adjust our subscription plans and monitor the impact on user engagement, allowing for a more responsive approach.",
+        "K-Chord Group's flexibility and intuitive design tools have become essential in our design process. We've been able to deliver better user experiences thanks to their innovative solutions.",
       image: user5,
     },
     {
       name: "Frank Wilson",
-      title: "Data Analyst",
+      title: "Data Analyst, GrowthWave",
       review:
-        "Streamerzz provides us with detailed insights into our subscription metrics. The advanced reporting tools have enabled us to identify trends and make informed decisions to optimize our growth strategy.",
+        "K-Chord Group provides us with in-depth analytics and reporting tools that give us the insights we need to drive our strategies. Their platform has helped us grow faster and smarter.",
       image: user6,
     },
   ],

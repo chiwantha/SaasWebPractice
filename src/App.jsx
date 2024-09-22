@@ -3,6 +3,7 @@ import Hero from "./sections/Hero";
 import HowItWorks from "./sections/HowItWorks";
 import KeyFeatures from "./sections/KeyFeatures";
 import Pricing from "./sections/Pricing";
+import Testimonials from "./sections/Testimonials";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <HowItWorks />
       <KeyFeatures />
       <Pricing />
+      <Testimonials />
     </section>
   );
 }
