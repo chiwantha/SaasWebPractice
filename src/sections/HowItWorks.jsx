@@ -5,6 +5,7 @@ const HowItWorks = () => {
   const setpVariants = {
     hidden: { opacity: 0, y: 50 },
     visible: (i) => ({
+      //new
       opacity: 1,
       y: 0,
       transition: {
