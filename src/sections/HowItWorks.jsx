@@ -20,8 +20,8 @@ const HowItWorks = () => {
       <div className="max-w-7xl mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, ease: "easeOut" }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 0.1, ease: "easeOut" }}
           className="text-center py-12 border-t border-neutral-800"
         >
           <h2
@@ -35,9 +35,23 @@ const HowItWorks = () => {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          // transition={{ duration: 0.6, ease: "easeOut" }}
+          variants={{
+            visible: {
+              transition: {
+                staggerChildern: 0.2,
+              },
+            },
+          }}
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+        >
           {HOW_IT_WORKS_CONTENT.steps.map((step, index) => (
-            <div
+            <motion.div
+              custom={index}
+              variants={setpVariants}
               key={index}
               className="bg-neutral-900 p-6 rounded-xl shadow-xl flex flex-col justify-between"
             >
@@ -70,9 +84,9 @@ const HowItWorks = () => {
                   </button>
                 </div>
               )} */}
-            </div>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
       </div>
     </div>
   );
