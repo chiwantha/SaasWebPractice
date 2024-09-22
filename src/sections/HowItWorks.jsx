@@ -2,19 +2,6 @@ import { HOW_IT_WORKS_CONTENT } from "../constants";
 import { motion } from "framer-motion";
 
 const HowItWorks = () => {
-  const setpVariants = {
-    hidden: { opacity: 0, y: 50 },
-    visible: (i) => ({
-      opacity: 1,
-      y: 0,
-      transition: {
-        delay: i * 0.2,
-        duration: 0.6,
-        ease: "easeOut",
-      },
-    }),
-  };
-
   return (
     <div id="works" className="pb-20">
       <div className="max-w-7xl mx-auto px-4">
@@ -50,8 +37,9 @@ const HowItWorks = () => {
         >
           {HOW_IT_WORKS_CONTENT.steps.map((step, index) => (
             <motion.div
-              custom={index}
-              variants={setpVariants}
+              initial={{ opacity: 0, y: -20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
               key={index}
               className="bg-neutral-900 p-6 rounded-xl shadow-xl flex flex-col justify-between"
             >
@@ -66,24 +54,6 @@ const HowItWorks = () => {
                   className="rounded-lg"
                 />
               </div>
-
-              {/* {step.users && (
-                <div className="flex justify-between items-center mt-4">
-                  <div className="flex -space-x-2">
-                    {step.users.map((user, userIndex) => (
-                      <img
-                        key={userIndex}
-                        src={user}
-                        alt={`person ${userIndex + 1}`}
-                        className="h-12 w-12 rounded-lg border-2 border-black"
-                      />
-                    ))}
-                  </div>
-                  <button className="bg-blue-600 hover:bg-blue-500 text-white py-2 px-4 rounded-lg">
-                    <div className="">Connect</div>
-                  </button>
-                </div>
-              )} */}
             </motion.div>
           ))}
         </motion.div>
