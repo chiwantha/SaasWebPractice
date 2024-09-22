@@ -3,19 +3,19 @@ import { HOW_IT_WORKS_CONTENT } from "../constants";
 
 const HowItWorks = () => {
   // mn meka add kale pc eken
-  //wenas kala hode
-  // const setpVariants = {
-  //   hidden: { opacity: 0, y: 50 },
-  //   visible: (i) => ({
-  //     opacity: 1,
-  //     y: 0,
-  //     transition: {
-  //       delay: i * 0.2,
-  //       duration: 0.6,
-  //       ease: "easeOut",
-  //     },
-  //   }),
-  // };
+  wenas kala hode
+  const setpVariants = {
+    hidden: { opacity: 0, y: 50 },
+    visible: (i) => ({
+      opacity: 1,
+      y: 0,
+      transition: {
+        delay: i * 0.2,
+        duration: 0.6,
+        ease: "easeOut",
+      },
+    }),
+  };
 
   return (
     <div id="works" className="pb-20">
