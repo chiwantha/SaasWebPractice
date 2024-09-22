@@ -1,19 +1,19 @@
 import { HOW_IT_WORKS_CONTENT } from "../constants";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 const HowItWorks = () => {
-  const setpVariants = {
-    hidden: { opacity: 0, y: 50 },
-    visible: (i) => ({
-      opacity: 1,
-      y: 0,
-      transition: {
-        delay: i * 0.2,
-        duration: 0.6,
-        ease: "easeOut",
-      },
-    }),
-  };
+  // const setpVariants = {
+  //   hidden: { opacity: 0, y: 50 },
+  //   visible: (i) => ({
+  //     opacity: 1,
+  //     y: 0,
+  //     transition: {
+  //       delay: i * 0.2,
+  //       duration: 0.6,
+  //       ease: "easeOut",
+  //     },
+  //   }),
+  // };
 
   return (
     <div id="works" className="pb-20">
