@@ -13,7 +13,7 @@ const Nav = () => {
   return (
     <nav className="fixed top-4 left-0 right-0 z-50 m-2">
       <div
-        className="text-neutral-500 bg-black/40 backdrop-blur-md max-w-7xl 
+        className="text-neutral-500 bg-black/70 backdrop-blur-md max-w-7xl 
         mx-auto px-4 py-3 flex justify-between items-center rounded-xl border border-neutral-800"
       >
         <a href="/">
