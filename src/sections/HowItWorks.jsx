@@ -2,7 +2,7 @@ import { HOW_IT_WORKS_CONTENT } from "../constants";
 import { motion } from "framer-motion";
 
 const HowItWorks = () => {
-  //aluth
+  //wenas kala hode
   const setpVariants = {
     hidden: { opacity: 0, y: 50 },
     visible: (i) => ({
