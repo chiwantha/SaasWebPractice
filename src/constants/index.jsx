@@ -158,47 +158,47 @@ export const KEY_FEATURES_CONTENT = {
 export const PLANS_CONTENT = {
   sectionTitle: "Choose Your Plan",
   sectionDescription:
-    "Streamerzz offers flexible pricing plans to fit every streamer’s needs, from beginner to pro.",
+    "K-Chord Group offers flexible solutions to meet your needs, from startups to enterprises.",
   popularBadge: "Most Popular",
   ctaText: "Get Started",
   plans: [
     {
-      name: "Basic",
+      name: "Starter",
       price: "$9.99/month",
       description:
-        "Perfect for beginners just starting their streaming journey.",
+        "Ideal for small businesses or individuals just starting their journey.",
       features: [
-        "Basic analytics",
-        "Custom overlays",
-        "Viewer engagement tools",
-        "Stream up to 720p",
+        "Basic analytics and reporting",
+        "Custom branding",
+        "Project management tools",
+        "Up to 5 team members",
       ],
     },
     {
-      name: "Pro",
+      name: "Professional",
       price: "$19.99/month",
       description:
-        "For streamers who want more advanced tools to grow their audience.",
+        "For growing businesses that need more advanced tools and support.",
       features: [
-        "Advanced analytics",
-        "Custom alerts & notifications",
-        "HD streaming up to 1080p",
-        "Real-time audience insights",
-        "Unlimited support",
+        "Advanced analytics and reporting",
+        "Automated project workflows",
+        "Collaboration tools for up to 20 team members",
+        "Priority customer support",
+        "Custom integrations",
       ],
       popular: true,
     },
     {
-      name: "Elite",
+      name: "Enterprise",
       price: "$49.99/month",
       description:
-        "For professional streamers who need cutting-edge tools and insights.",
+        "For large businesses needing full-scale solutions with premium support.",
       features: [
-        "Premium analytics & reporting",
-        "4K Ultra HD streaming",
+        "Comprehensive analytics & insights",
+        "Unlimited team members",
         "Dedicated account manager",
         "Full API access",
-        "Custom branding & overlays",
+        "Custom enterprise solutions",
       ],
     },
   ],
