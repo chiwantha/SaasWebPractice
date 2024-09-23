@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const HowItWorks = () => {
   return (
-    <div id="works" className="pb-20">
+    <div id="works" className="pb-15">
       <div className="max-w-7xl mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: -20 }}

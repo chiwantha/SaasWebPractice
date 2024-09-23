@@ -106,51 +106,51 @@ export const HOW_IT_WORKS_CONTENT = {
 };
 
 export const KEY_FEATURES_CONTENT = {
-  sectionTitle: "Stream Smarter with These Key Features",
+  sectionTitle: "Enhance Your Experience with K-Chord Group",
   sectionDescription:
-    "Everything you need to enhance your streaming experience, all in one place.",
+    "Everything you need for seamless software and music solutions, all in one place.",
   features: [
     {
       id: 1,
-      icon: <RiBarChart2Line className="w-8 h-8" />,
-      title: "Real-Time Stream Analytics",
+      icon: <RiBarChart2Line className="w-8 h-8 text-blue-500" />,
+      title: "Real-Time Analytics",
       description:
-        "Track your audience engagement, viewer count, and performance in real-time.",
+        "Monitor engagement and performance metrics live for better decision-making.",
     },
     {
       id: 2,
-      icon: <RiSettings2Line className="w-8 h-8" />,
-      title: "Automated Stream Management",
+      icon: <RiSettings2Line className="w-8 h-8 text-green-500" />,
+      title: "Streamlined Management",
       description:
-        "Set up automated alerts, stream schedules, and more with ease.",
+        "Easily automate alerts and manage your projects with intuitive tools.",
     },
     {
       id: 3,
-      icon: <RiTeamLine className="w-8 h-8" />,
-      title: "Audience Engagement Tools",
+      icon: <RiTeamLine className="w-8 h-8 text-purple-500" />,
+      title: "Collaboration Tools",
       description:
-        "Interact with your audience through custom alerts, chat integrations, and giveaways.",
+        "Engage with your team and audience through integrated chat and collaboration features.",
     },
     {
       id: 4,
-      icon: <RiTwitchLine className="w-8 h-8" />,
+      icon: <RiTwitchLine className="w-8 h-8 text-purple-600" />,
       title: "Twitch Integration",
       description:
-        "Seamlessly connect with Twitch to automate alerts, manage subscribers, and track donations.",
+        "Connect effortlessly with Twitch to manage alerts and subscriber interactions.",
     },
     {
       id: 5,
-      icon: <RiYoutubeLine className="w-8 h-8" />,
+      icon: <RiYoutubeLine className="w-8 h-8 text-red-600" />,
       title: "YouTube Streaming Support",
       description:
-        "Go live on YouTube with built-in tools for managing chats, subscribers, and more.",
+        "Go live on YouTube with powerful tools for audience management and interaction.",
     },
     {
       id: 6,
-      icon: <RiCalendarLine className="w-8 h-8" />,
-      title: "Schedule Streams",
+      icon: <RiCalendarLine className="w-8 h-8 text-orange-500" />,
+      title: "Schedule Your Events",
       description:
-        "Plan and schedule your streams ahead of time, with reminders sent to your audience.",
+        "Plan your streams and events in advance, ensuring your audience stays informed.",
     },
   ],
 };

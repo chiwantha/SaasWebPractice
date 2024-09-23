@@ -1,6 +1,7 @@
 import Nav from "./components/Nav";
 import Hero from "./sections/Hero";
 import HowItWorks from "./sections/HowItWorks";
+import KeyFeatures from "./sections/KeyFeatures";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Nav />
       <Hero />
       <HowItWorks />
+      <KeyFeatures />
     </section>
   );
 }
