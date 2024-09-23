@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const KeyFeatures = () => {
   return (
-    <div className="pb-15">
+    <div className="pb-16">
       <div className="max-w-7xl mx-auto px-4 mt-20">
         <motion.div
           initial={{ opacity: 0, y: -20 }}
@@ -26,11 +26,30 @@ const KeyFeatures = () => {
               key={index}
               className="flex flex-col items-center text-center w-full md:w-1/2 lg:w-1/3 p-6"
             >
-              <div className="flex justify-center items-center mb-4">
+              <motion.div
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.2 }}
+                className="flex justify-center items-center mb-4"
+              >
                 {feature.icon}
-              </div>
-              <h3 className="text-xl">{feature.title}</h3>
-              <p className="mt-2 text-neutral-400">{feature.description}</p>
+              </motion.div>
+              <motion.h3
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.3 }}
+                className="text-xl"
+              >
+                {feature.title}
+              </motion.h3>
+              <motion.p
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.4 }}
+                className="mt-2 text-neutral-400"
+              >
+                {feature.description}
+              </motion.p>
             </div>
           ))}
         </motion.div>

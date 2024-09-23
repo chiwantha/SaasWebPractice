@@ -22,41 +22,48 @@ const HowItWorks = () => {
           </p>
         </motion.div>
 
-        <motion.div
-          initial="hidden"
-          whileInView="visible"
-          // transition={{ duration: 0.6, ease: "easeOut" }}
-          variants={{
-            visible: {
-              transition: {
-                staggerChildern: 0.2,
-              },
-            },
-          }}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
-        >
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {HOW_IT_WORKS_CONTENT.steps.map((step, index) => (
             <motion.div
-              initial={{ opacity: 0, y: +100 }}
+              initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1, delay: 0.1 * index }}
+              transition={{ duration: 0.6, delay: 0.1 * index }}
               key={index}
               className="bg-neutral-900 p-6 rounded-xl shadow-xl flex flex-col justify-between"
             >
               <div className="">
-                <h3 className="text-xl font-semibold mb-4">{step.title}</h3>
-                <p className="text-neutral-400 mb-4">{step.description}</p>
+                <motion.h3
+                  initial={{ opacity: 0, y: 50 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.6, delay: 0.2 }}
+                  className="text-xl font-semibold mb-4"
+                >
+                  {step.title}
+                </motion.h3>
+                <motion.p
+                  initial={{ opacity: 0, y: 50 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.6, delay: 0.3 }}
+                  className="text-neutral-400 mb-4"
+                >
+                  {step.description}
+                </motion.p>
               </div>
-              <div className="flex justify-center">
+              <motion.div
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.4 }}
+                className="flex justify-center"
+              >
                 <img
                   src={step.imageSrc}
                   alt={step.imageAlt}
                   className="rounded-lg"
                 />
-              </div>
+              </motion.div>
             </motion.div>
           ))}
-        </motion.div>
+        </div>
       </div>
     </div>
   );
